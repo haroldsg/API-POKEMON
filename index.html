@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="https://static.vecteezy.com/system/resources/previews/027/127/591/original/pokemon-logo-pokemon-icon-transparent-free-png.png" 
+        alt="logo" id="logo">
+    
+    <div class="pokedex">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search Pokémon" required>
+            <button id="search-button">Search</button>
+        </div>
+        <div id="pokemon-info" class="pokemon-info">
+            <h2 id="pokemon-name"></h2>
+            
+            <div id="aux">
+                <p id="pokemon-id"></p>
+                <div>
+                    <p id="weight"></p>
+                    <p id="height"></p> 
+                </div>
+            </div>
+            <img id="sprite" src="" alt="pokemon">
+            <img id="sprite-background" src="https://www.freepnglogos.com/uploads/pokemon-symbol-logo-png-31.png" alt="background">
+            <div id="aux-type">
+                <p id="types"></p>
+            </div>
+            
+            <div id="stats">
+                <div id="base">
+                    <p>BASE</p>
+                    <p>HP</p>
+                    <p>ATTACK</p>
+                    <p>DEFENSE</p>
+                    <p>SP-ATTACK</p>
+                    <p>SP-DEFENSE</p>
+                    <p>SPEED</p>
+                </div>
+
+                <div id="status">
+                    <p>STATUS</p>
+                    <p id="hp"></p>
+                    <p id="attack"></p>
+                    <p id="defense"></p>
+                    <p id="special-attack"></p>
+                    <p id="special-defense"></p>
+                    <p id="speed"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
