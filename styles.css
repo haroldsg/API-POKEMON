@@ -91,7 +91,7 @@ body {
 
 #aux-type{
     font-size: 0.9rem;
-    margin-top: 160px;
+    margin-top: 50%;
     margin-bottom: 10px;
     width: 85%;
     display: flex;
@@ -221,4 +221,37 @@ body {
 
 .bug {
     background-color: #A6B91A;
+}
+
+
+@media (max-width: 600px) {
+    #logo {
+        width: 80%; /* Ajusta el tamaño del logo */
+    }
+
+    .pokedex {
+        padding: 15px;
+        width: 100%;
+    }
+
+    #search-button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .pokemon-info h2 {
+        font-size: 16px;
+    }
+
+    #aux{
+
+    }
+
+    #stats {
+        flex-direction: space-between;
+    }
+
+    #base, #status {
+        width: 100%;
+    }
 }
