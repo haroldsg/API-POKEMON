@@ -1,6 +1,6 @@
 # API-POKEMON
 
-![Pokémon Logo](https://www.freepnglogos.com/uploads/pokemon-symbol-logo-png-31.png)
+![Pokémon Logo](https://static.vecteezy.com/system/resources/previews/027/127/591/original/pokemon-logo-pokemon-icon-transparent-free-png.png)
 
 ## Descripción
 
@@ -13,11 +13,6 @@
 - **Búsqueda Rápida**: Busca cualquier Pokémon por nombre o ID.
 - **Detalles Completos**: Obtén información detallada sobre cada Pokémon.
 - **Interfaz Amigable**: Una interfaz limpia y fácil de usar.
-
-## Capturas de Pantalla
-
-![Captura de Pantalla 1](https://via.placeholder.com/400x300)
-![Captura de Pantalla 2](https://via.placeholder.com/400x300)
 
 ## Tecnologías Utilizadas
 
